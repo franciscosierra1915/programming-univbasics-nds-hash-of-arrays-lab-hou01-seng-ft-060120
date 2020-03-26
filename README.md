@@ -36,8 +36,8 @@ build on our weather example.
 ```ruby
 daily_weather = {
   temperature: [75, 80, 72],
-  precipitation: [0.0, 0.01, 0.03]
-  wind_velocity: [4, 3, 2]
+  precipitation: [0.0, 0.01, 0.03],
+  wind_velocity: [4, 3, 2],
   barometric_pressure: [30.32, 30.30, 30.20]
 }
 ```
@@ -52,8 +52,8 @@ To read data from a `Hash` of `Array`s we provide:
 ```ruby
 daily_weather = {
   temperature: [75, 80, 72],
-  precipitation: [0.0, 0.01, 0.03]
-  wind_velocity: [4, 3, 2]
+  precipitation: [0.0, 0.01, 0.03],
+  wind_velocity: [4, 3, 2],
   barometric_pressure: [30.32, 30.30, 30.20]
 }
 
@@ -113,5 +113,5 @@ This concludes our learning of the "basic" nested data structures
 * Hashes of Arrays
 
 By mixing these four "basic" nested data structures, we can build complex data
-structures that model our world's complexity as a data structures which Ruby
-can process &mdash; with our help! &mdash; to generate _insights_.
+structures that model our world's complexity and that Ruby can process &mdash; 
+with our help! &mdash; to generate _insights_.
